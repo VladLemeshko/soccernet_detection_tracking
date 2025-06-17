@@ -40,7 +40,7 @@ def process_video(video_path, filename):
     
     model.predict(video_path, save=True, project=VIDEOS_PROCESSED_DIR, name=filename)
 
-BOT_TOKEN = '8143085793:AAGYLfrHJxcai9aj9KHepPBDRq62rIFxTNc'
+BOT_TOKEN = 'YOUR_BOT_TOKEN'
 bot = telebot.TeleBot(BOT_TOKEN)
 
 
