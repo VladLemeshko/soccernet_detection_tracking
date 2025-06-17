@@ -1,0 +1,50 @@
+# Исключаем большие и ненужные файлы/папки
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+*.log
+*.csv
+*.txt
+*.mp4
+*.avi
+*.png
+*.jpg
+*.jpeg
+*.npy
+*.npz
+*.zip
+*.tar
+*.gz
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.swp
+*.swo
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+*.ipynb_checkpoints/
+
+# Исключаем папки с данными и результатами
+/data/
+/dataset/
+/videos/
+/videos_processed/
+/runs/
+/logs/
+
+# Исключаем временные и системные файлы
+.env
+venv/
+.idea/
+.vscode/
+
+# Оставляем только код, конфиги и важные скрипты
+!*.py
+!*.sh
+!*.md
+!*.yaml
+!*.yml 
